@@ -13,11 +13,11 @@
 
 ## Links to check:  
 
-- Heroku application for main branch: 
+- Heroku application for main branch: https://ramizregat-basic-auth.herokuapp.com/
 
 - Github actions link: https://github.com/RamiZregat/basic-auth/actions
 
-- Github pull request link: https://github.com/RamiZregat/basic-auth/pull/2
+- Github pull request link: https://github.com/RamiZregat/basic-auth/pull/3
 
 
 ## Dependencies:
