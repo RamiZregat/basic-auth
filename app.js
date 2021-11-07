@@ -6,8 +6,8 @@ const bcrypt = require('bcrypt');
 const base64 = require('base-64');
 const { signUp,signIn } = require('./auth/routes/userRoutes');
 const signinValditor=require('./auth/middleware/signinValditor')
-const errorHandler = require('./auth/middleware/500');
-const notFoundHandler = require('./auth/middleware/404');
+const errorHandler = require('./auth/handlers/500');
+const notFoundHandler = require('./auth/handlers/404');
 
 
 // Prepare the express app
