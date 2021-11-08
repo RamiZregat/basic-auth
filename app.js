@@ -10,6 +10,7 @@ const errorHandler = require('./auth/handlers/500');
 const notFoundHandler = require('./auth/handlers/404');
 
 
+
 // Prepare the express app
 const app = express();
 
@@ -29,8 +30,8 @@ app.get('/', (req, res) => {
   });
 
 // make sure our tables are created, start up the HTTP server.
-function startServer(){
-    app.listen(3030, () => console.log('server up')); 
+function startServer(PORT){
+    app.listen(PORT, () => console.log('server up')); 
 }
 
 app.use('*', errorHandler);
